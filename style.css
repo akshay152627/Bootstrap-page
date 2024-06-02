@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #c850c0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--bs-dark-color);
+}
+
+.common-heading {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+}
+
+.common-title {
+    margin-bottom: 4rem;
+}
+
+
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.bg-main {
+    height: 90vh;
+    position: relative;
+    border: none;
+}
+
+.hero-section .container {
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.bg-color {
+    background-color: var(--bs-dark-primary);
+}
+
+.hero-video--section {
+    height: auto;
+    width: 80%;
+    border-radius: 25px;
+}
+
+.servisec-section {
+    padding: 4rem 0 3rem 0 !important;
+}
+
+
+.card-box-style:hover {
+    box-shadow: var(--bs-dark-primary);
+}
+
+
+.bg-color1-secton {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://media.istockphoto.com/id/474275680/photo/city-life-downtown-toronto-vibrant-cityscape-skyline.jpg?s=2048x2048&w=is&k=20&c=fPuvd-XC16kf2FrUCdiIoQgw9g5JyX18Z71Wvx7DDfU=");
+    /* background-color: rgba(0, 0, 0, 0.8);   */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    /* z-index: -1; */
+    background-attachment: fixed;
+}
+
+.box-hov:hover {
+    /* border: 1px solid yellow; */
+    box-shadow: 0 0 5px rgb(56, 54, 54) !important;
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+
+
+}
+
+
+.carousel-indicators {
+    margin-bottom: -1rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    justify-content: space-between;
+    width: 3%;
+}
+
+
+.client .card:hover {
+    color: #FFFFFF !important;
+    background-color: #353434;
+    transition: all 0.3s linear;
+
+}
+
+.carousal-indicators {
+    margin-bottom: 0% !important;
+}
+
+
+.icon-width {
+    width: 10px;
+}
+
+.star {
+    color: #c850c0;
+}
+
+
+.contact {
+    /* height: 100vh; */
+    position: relative;
+    border: none;
+}
+
+.contact .common-heading {
+    padding-top: 10rem;
+}
+
+.form-height {
+    margin-bottom: 30px;
+}
+
+
+.footer-ul li {
+    list-style: none;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+
+    /* Styles for medium devices */
+    .bg-main {
+        height: 120vh;
+    }
+    .content-center {
+        text-align: center;
+    }
+
+    .hero-video--section {
+        margin-bottom: 5%;
+    }
+  
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    /* Styles for small devices */
+    .bg-main {
+        height: 104vh;
+    }
+
+    .content-center {
+        text-align: center;
+    }
+
+    .hero-video--section {
+        margin-bottom: 5%;
+    }
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Wave effect css */
+.custom-shape-divider-bottom-1712139994 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1712139994 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 133px;
+    transform: rotateY(180deg);
+    border-bottom: none;
+    /* Add this line to remove the bottom underline */
+}
+
+.custom-shape-divider-bottom-1712139994 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1712139994 svg {
+        width: calc(100% + 1.3px);
+        height: 76px;
+    }
+}
+
+/* contact SVG  */
+
+.custom-shape-divider-top-1712243397 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1712243397 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 155px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1712243397 .shape-fill {
+    fill: #FFFFFF;
+}
